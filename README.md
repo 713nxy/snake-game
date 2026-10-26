@@ -11,7 +11,9 @@
 
 ## 📸 游戏截图
 *(建议在 GitHub 上点击 Edit 上传一张游戏运行截图，然后替换下面的图片链接)*
-![游戏运行截图](https://via.placeholder.com/600x400?text=Snake+Game+Screenshot)
+![游戏运行截图](<img width="451" height="325" alt="image" src="https://github.com/user-attachments/assets/0e7ab7e0-bc13-42bd-85ad-58e24e72e292" /><img width="452" height="323" alt="屏幕截图 2026-10-26 171147" src="https://github.com/user-attachments/assets/b1066897-cef7-4853-bc12-1efe4918258c" />
+
+)
 
 ## 🛠️ 环境要求
 - Python 3.8 或更高版本
