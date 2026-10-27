@@ -36,7 +36,7 @@ res = client.chat.completions.create(
     model="glm-5.3-flashx",     # 你和AI大模型交互的时候,你需要使用到的是那个模型
     messages=[              # 你和AI聊天的消息
         {"role":"system","content":"你是一个资深的编程大师"},
-        {"role":"user","content":"用python写一个贪吃蛇小游戏"}
+        {"role":"user","content":"说说lambda的定义和用法"}
     ]
 )
 # 获取AI大模型的回复结果

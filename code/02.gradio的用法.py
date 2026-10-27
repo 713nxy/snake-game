@@ -21,9 +21,12 @@ with gr.Blocks() as demo:
             label = > 标题
             placeholder => 输入提示
     """
+    gr.Textbox(label="登录")
     gr.Textbox(label="姓名",placeholder="请输入您的姓名")
-
-
+    gr.Textbox(label="性别", placeholder="请输入您的性别")
+    gr.Textbox(label="住址", placeholder="请输入您的详细地址")
+    gr.Textbox(label="邮箱", placeholder="请输入您的邮箱")
+    gr.Textbox(label="人机验证", placeholder="请输入验证码")
     """
     创建一个滑块
         Slider => 滑块
@@ -34,7 +37,7 @@ with gr.Blocks() as demo:
             step => 滑块的步子
             interactive => 和滑块进行交互
     """
-    gr.Slider(label="声音",minimum=0,maximum=100,value=50,step=10,interactive=True)
+    gr.Slider(label="年龄",minimum=1,maximum=100,value=1,step=1,interactive=True)
 if __name__ == '__main__':
     # 启动这个UI界面
     demo.launch()

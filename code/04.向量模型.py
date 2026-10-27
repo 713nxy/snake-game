@@ -13,10 +13,10 @@ client = ZhipuAI()
 response = client.embeddings.create(
     # embedding-2 => 1024维度
     # embedding-3 => 2048维度
-    model="embedding-2", # 就是你的向量,智谱AI提供了两个向量模型
+    model="embedding-3", # 就是你的向量,智谱AI提供了两个向量模型
     input=[ # 这个就是你要向量化的内容
         "美食非常美味，服务员也很友好。这部电影既刺激又令人兴奋。阅读书籍是扩展知识的好方法",
-        "我是文渊",
+        "我是宁欣怡",
         "你好"
     ],
 )
